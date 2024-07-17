@@ -13,7 +13,6 @@ for (let i=0; i<nums.length; i++){
     }
     console.log();
 }
-
     console.log(nums.reduce((a,b)=>a+b));
 }
 bombNumbers([1, 2, 2, 4, 2, 2, 2, 9], [4, 2]);
